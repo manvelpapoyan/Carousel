@@ -18,10 +18,7 @@ function next() {
     if(i===imageArr.length){
         i=0
     }
-    image.src = imageArr[i];
-
-    console.log(i)
-
+    image.src = imageArr[i]
 }
 
 function previous() {
@@ -30,13 +27,7 @@ function previous() {
     if(i<0){
         i=imageArr.length-1
     }
-
-
-    console.log(i)
     image.src = imageArr[i];
-
-
-
 }
 
 function playPause() {
@@ -47,8 +38,5 @@ function playPause() {
         clearInterval(id)
         bool = true;
     }
-
-
-
 
 }
