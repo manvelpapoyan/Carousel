@@ -1,4 +1,4 @@
-const imageArr = ['./1.jpg', './2.jpg', './3.jpg', './4.jpg', './5.jpg', './6.jpeg','./7.jpg',]
+const imageArr = ['./1.jpeg', './2.jpeg', './3.jpeg', './4.jpeg', './5.jpeg', './6.jpeg','./7.jpeg',]
 
 
 const image = document.getElementById('image')
