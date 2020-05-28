@@ -1,0 +1,35 @@
+#imageDiv {
+    width: 60%;
+    height: 100%;
+    margin-left: 20%;
+}
+
+#image {
+    width: 100%;
+    height: auto;
+}
+
+#next {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url(./next-icon.png);
+    float: right;
+}
+
+#previous {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url(./previous-icon.png);
+    float: left;
+}
+
+#playPause {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url(./play-pause-512.png);
+    margin-left: 40%;
+
+}
