@@ -32,7 +32,7 @@ function previous() {
 
 function playPause() {
     if (bool) {
-        id = setInterval(next, 1000)
+        id = setInterval(next, 1500)
         bool = false
     } else {
         clearInterval(id)
